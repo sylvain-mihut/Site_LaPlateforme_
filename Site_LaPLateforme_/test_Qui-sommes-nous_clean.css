@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+h1,h2{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    margin: 3% 3% 3% 3%;
+}
+
+
+
+body {
+    margin: 0%;
+    padding: 0%
+}
+
+header {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* font-size: 3px; */
+    background-color: #F6F6F6;
+}
+
+a {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 1%;
+    text-decoration: none;
+    color: dimgray;
+    font-size: large;
+}
+
+.logo img {
+    width: 60%;
+    height : 80%;
+    
+}
+
+
+p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    color: darkgray;
+    /* margin-left: 0%; */
+    /* padding: 3.5%; */
+    line-height: 1.7em;
+    
+    
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0px  6em; */
+}
+
+
+.paragraphe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.paragraphe1, .paragraphe2 {
+    width: 40%;
+}
+#all_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liens_partenaires1, .liens_partenaires2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.certifications {
+    background-color: #F6F6F6;
+}
+
+.certifications_colonne, .vidéos_présentation {
+    padding: 3.4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3em
+    
+}
+
+.certifications_colonne img {
+    width: 150px;
+    height: auto;
+}
+
+.videos_column h4 {
+    color: #336699;
+}
+
+footer{
+    background-color: #313131;
+    padding: 3.4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3em
+
+}
+
+
+
+
+
+footer img {
+    width: 100%;
+    height : auto;
+}
